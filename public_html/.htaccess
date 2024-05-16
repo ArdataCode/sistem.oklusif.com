@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Mengatur ulang root direktori ke direktori 'public/'
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
